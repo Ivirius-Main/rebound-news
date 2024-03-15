@@ -11,7 +11,7 @@
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^2.1.0",
+		"@sveltejs/adapter-vercel": "^1.0.0",
 		"@sveltejs/kit": "^1.22.3",
 		"@tailwindcss/typography": "^0.5.7",
 		"@vcarl/remark-headings": "^0.0.1",
@@ -20,6 +20,7 @@
 		"eslint": "^7.32.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-svelte3": "^3.3.0",
+		"fluent-svelte": "^1.6.0",
 		"mdsvex": "^0.10.6",
 		"mdsvex-relative-images": "^1.0.3",
 		"postcss": "^8.4.14",
