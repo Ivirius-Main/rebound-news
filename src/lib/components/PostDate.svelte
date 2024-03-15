@@ -29,6 +29,6 @@
 	  {#if collapsed}
 	  <span class="mx-1">•</span>
 	  {/if}
-	  <span>"by " + {post.author}</span>
+	  <span>by {post.author}</span>
   </div>
 </div>
