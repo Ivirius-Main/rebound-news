@@ -12,7 +12,7 @@ export const name = `${firstName} ${lastName}`
 // Used for the landing page & footer of posts
 export const avatar = ''
 export const bio = `\
-Welcome to ${firstName}! On this site, I will post updates about my software projects, YouTube channel, and more!`
+Welcome to ${name}! On this site, I will post updates about my software projects, YouTube channel, and more!`
 
 // Your social usernames, empty strings won't be used.
 // For sake of the live demo, I'm using `username/repo` for github,

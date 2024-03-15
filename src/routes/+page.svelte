@@ -31,7 +31,7 @@
       <h2 class="text-sm font-medium sm:text-base text-zinc-500 dark:text-zinc-400">
         Recently Published Posts
       </h2>
-      <a href="/posts" class="flex items-center gap-1 text-sm font-medium text-teal-500">View All <ArrowRightIcon class="w-4 h-4" /></a>
+	<Fluent.Button variant="accent" onclick="window.location.href='https://errortek-news.vercel.app/posts';">View all</Fluent.Button>
     </div>
     <PostsList posts={data.posts} />
   </section>

@@ -1,6 +1,7 @@
 ---
 title: UltraTextEdit Future Roadmap
 date: 2024-03-15
+author: jpbandroid
 ---
 
 So I was just thinking about how UltraTextEdit (one of my many apps) would work in the future. In fact, there are more than 10 distinct variants of UTE!

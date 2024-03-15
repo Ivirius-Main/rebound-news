@@ -26,5 +26,9 @@
       <span class="mx-1">•</span>
     {/if}
     <span>{post.readingTime}</span>
+	  {#if collapsed}
+	  <span class="mx-1">•</span>
+	  {/if}
+	  <span>"by " + {post.author}</span>
   </div>
 </div>
