@@ -3,6 +3,8 @@
 	import PostsList from '$lib/components/PostsList.svelte'
 	import SocialLinks from '$lib/components/SocialLinks.svelte'
 	import { avatar, bio, name } from '$lib/info.js'
+	import * as Fluent from "fluent-svelte";
+	import "fluent-svelte/theme.css";
 	import { Button, Checkbox } from "fluent-svelte";
 
 	/** @type {import('./$types').PageData} */
