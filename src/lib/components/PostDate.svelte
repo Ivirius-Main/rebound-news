@@ -1,12 +1,16 @@
 <script>
-  import { format, parseISO } from 'date-fns'
+	import { format, parseISO } from 'date-fns'
 
-  export let decorate
-  export let post
-  export let collapsed = false
+	import * as Fluent from "fluent-svelte";
+	import "fluent-svelte/theme.css";
+	import { InfoBadge } from "fluent-svelte";
 
-  let _class
-  export { _class as class }
+	export let decorate
+	export let post
+	export let collapsed = false
+
+	let _class
+	export { _class as class }
 </script>
 
 <div
@@ -30,5 +34,15 @@
 	  <span class="mx-1">•</span>
 	  {/if}
 	  <span>by {post.author}</span>
+
+	  {#if collapsed}
+	  <span class="mx-1">•</span>
+	  {/if}
+	  <span>
+		  <Fluent.InfoBadge>{post.tag}</Fluent.InfoBadge>
+	  </span>
+	  <span>
+		  <Fluent.InfoBadge>{post.tag2}</Fluent.InfoBadge>
+	  </span>
   </div>
 </div>
