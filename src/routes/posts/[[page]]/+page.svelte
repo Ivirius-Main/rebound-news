@@ -1,14 +1,18 @@
 <script>
-  import { name } from '$lib/info.js'
-  import ArrowLeftIcon from '$lib/components/ArrowLeftIcon.svelte'
-  import ArrowRightIcon from '$lib/components/ArrowRightIcon.svelte'
-  import PostsList from '$lib/components/PostsList.svelte'
+	import { name } from '$lib/info.js'
+	import ArrowLeftIcon from '$lib/components/ArrowLeftIcon.svelte'
+	import ArrowRightIcon from '$lib/components/ArrowRightIcon.svelte'
+	import PostsList from '$lib/components/PostsList.svelte'
 
-  /** @type {import('./$types').PageData} */
-  export let data
+	import * as Fluent from "fluent-svelte";
+	import "fluent-svelte/theme.css";
+	import { Button, Checkbox, TextBlock } from "fluent-svelte";
 
-  $: isFirstPage = data.page === 1
-  $: hasNextPage = data.posts[data.posts.length - 1]?.previous
+	/** @type {import('./$types').PageData} */
+	export let data
+
+	$: isFirstPage = data.page === 1
+	$: hasNextPage = data.posts[data.posts.length - 1]?.previous
 </script>
 
 <svelte:head>
