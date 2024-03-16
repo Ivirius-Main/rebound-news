@@ -45,6 +45,6 @@
 	  <span>
 		  <Fluent.InfoBadge>{post.tag2}</Fluent.InfoBadge>
 	  </span>
-	  {/if
+	  {/if}
   </div>
 </div>
