@@ -6,7 +6,10 @@
 	import { browser } from '$app/environment'
 	import { name } from '$lib/info'
 	import { page } from '$app/stores'
-	import { Button, Checkbox } from "fluent-svelte";
+
+	import * as Fluent from "fluent-svelte";
+	import "fluent-svelte/theme.css";
+	import { Button, Checkbox, TextBlock } from "fluent-svelte";
 
 	let isDarkMode = browser ? Boolean(document.documentElement.classList.contains('dark')) : true
 
