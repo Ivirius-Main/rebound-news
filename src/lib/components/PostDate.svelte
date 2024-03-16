@@ -41,6 +41,7 @@
 	  <span>
 		  <Fluent.InfoBadge>{post.tag}</Fluent.InfoBadge>
 	  </span>
+	  {#if post.tag2 !== "undefined"}
 	  <span>
 		  <Fluent.InfoBadge>{post.tag2}</Fluent.InfoBadge>
 	  </span>
