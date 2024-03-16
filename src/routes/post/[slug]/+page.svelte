@@ -1,19 +1,23 @@
 <script>
-  import { website, name, bio, avatar } from '$lib/info.js'
-  import ToC from '$lib/components/ToC.svelte'
-  import ArrowLeftIcon from '$lib/components/ArrowLeftIcon.svelte'
-  import SocialLinks from '$lib/components/SocialLinks.svelte'
-  import { afterNavigate } from '$app/navigation'
-  import PostDate from '$lib/components/PostDate.svelte'
+	import { website, name, bio, avatar } from '$lib/info.js'
+	import ToC from '$lib/components/ToC.svelte'
+	import ArrowLeftIcon from '$lib/components/ArrowLeftIcon.svelte'
+	import SocialLinks from '$lib/components/SocialLinks.svelte'
+	import { afterNavigate } from '$app/navigation'
+	import PostDate from '$lib/components/PostDate.svelte'
 
-  /** @type {import('./$types').PageData} */
-  export let data
+	import * as Fluent from "fluent-svelte";
+	import "fluent-svelte/theme.css";
+	import { Button, Checkbox, TextBlock } from "fluent-svelte";
 
-  // generated open-graph image for sharing on social media.
-  // see https://og-image.vercel.app/ for more options.
-  const ogImage = `https://og-image.vercel.app/**${encodeURIComponent(
-    data.post.title
-  )}**?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fhyper-color-logo.svg`
+	/** @type {import('./$types').PageData} */
+	export let data
+
+	// generated open-graph image for sharing on social media.
+	// see https://og-image.vercel.app/ for more options.
+	const ogImage = `https://og-image.vercel.app/**${encodeURIComponent(
+	data.post.title
+	)}**?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fhyper-color-logo.svg`
 
   const url = `${website}/${data.post.slug}`
 
@@ -88,28 +92,21 @@
         <svelte:component this={data.component} />
       </div>
     </article>
-
-    <!-- bio -->
     <hr />
-    <div class="py-8">
-      <div class="grid gap-8">
-        <div class="flex justify-center order-1 col-span-2 gap-6 md:order-2">
-          <SocialLinks />
-        </div>
-        <div class="flex justify-center order-2 md:order-1 md:col-span-2">
-          <a href="/" class="inline-block rounded-full">
-            <img
-              src={avatar}
-              alt={name}
-              class="w-24 h-24 mx-auto rounded-full md:w-28 md:h-28 ring-2 ring-zinc-200 dark:ring-zinc-700"
-            />
-          </a>
-        </div>
-        <p class="order-3 text-base text-zinc-600 dark:text-zinc-400">
-          {bio}
-        </p>
-      </div>
-    </div>
+	  <!--Bottom bar-->
+	  <section style="padding-top: 10px; padding-bottom: 10px; padding-left: 25px; background: var(--fds-solid-background-base); border-top: 1px solid rgba(205, 205, 205, 0.25); display: flex; flex-direction: column; align-items: flex-start;">
+<Fluent.TextBlock variant="bodyStrong" style="margin-top: 10px;">
+			  The Rebound Team
+		  </Fluent.TextBlock>
+		  <Fluent.Button variant="hyperlink" onclick="window.location.href='https://ivirius.vercel.app/';" style="margin-top: 10px; margin-bottom: 10px;">Ivirius</Fluent.Button>
+		  <Fluent.Button variant="hyperlink" onclick="window.location.href='https://errortek.vercel.app/';" style="margin-top: 10px; margin-bottom: 10px;">ErrorTek</Fluent.Button>
+		  <Fluent.TextBlock variant="bodyStrong" style="margin-top: 10px;">
+			  Website
+		  </Fluent.TextBlock>
+		  <Fluent.Button variant="hyperlink" onclick="window.location.href='https://fluent-svelte.vercel.app';" style="margin-top: 10px; margin-bottom: 10px;">Fluent Svelte</Fluent.Button>
+		  <Fluent.Button variant="hyperlink" onclick="window.location.href='https://www.vercel.com';">Vercel</Fluent.Button>
+	  </section>
+
   </div>
 
   <!-- table of contents -->
