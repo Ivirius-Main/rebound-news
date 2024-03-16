@@ -5,7 +5,7 @@
 // URL of your website
 export const website = 'https://sveltekit-blog-template.vercel.app'
 
-export const firstName = 'Project WinRebound Devs\''
+export const firstName = 'ProjRebound Devs\''
 export const lastName = 'Blog'
 export const name = `${firstName} ${lastName}`
 
