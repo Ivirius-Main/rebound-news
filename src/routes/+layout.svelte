@@ -23,8 +23,8 @@
 
 <div class="flex flex-col min-h-screen ">
 	<div class="flex flex-col flex-grow w-full px-4 py-2">
-		<Fluent.TextBlock variant="titleLarge">
-			<a href="/">
+		<Fluent.TextBlock variant="titleLarge" style="text-align: center;">
+			<a href="/" style="text-align: center;">
 				{name}
 			</a>
 		</Fluent.TextBlock>
