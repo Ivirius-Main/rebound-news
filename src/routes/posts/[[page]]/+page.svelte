@@ -24,7 +24,7 @@
     <h1 class="text-4xl font-bold tracking-tight sm:text-5xl">
       Writing...
     </h1>
-    <p class="mt-6">All of my updates and announcements in one place!</p>
+    <p class="mt-6">All of the Rebound Devs' updates and announcements in one place!</p>
   </header>
 
   <div class="mt-16 sm:mt-20">
@@ -55,7 +55,7 @@
 			  The Rebound Team
 		  </Fluent.TextBlock>
 		  <Fluent.Button variant="hyperlink" onclick="window.location.href='https://ivirius.vercel.app/';" style="margin-top: 10px; margin-bottom: 10px;">Ivirius</Fluent.Button>
-		  <Fluent.Button variant="hyperlink" onclick="window.location.href='https://errortek.vercel.app/';" style="margin-top: 10px; margin-bottom: 10px;">ErrorTek</Fluent.Button>
+		  <Fluent.Button variant="hyperlink" onclick="window.location.href='https://errortek.vercel.app/';">ErrorTek</Fluent.Button>
 		  <Fluent.TextBlock variant="bodyStrong" style="margin-top: 10px;">
 			  Website
 		  </Fluent.TextBlock>
