@@ -1,3 +1,8 @@
+
+import * as Fluent from "fluent-svelte";
+import "fluent-svelte/theme.css";
+import { Button, Checkbox, TextBlock } from "fluent-svelte";
+
 /**
  * Dynamically loads the svelte component for the post (only possible in +page.js)
  * and pass on the data from +page.server.js
