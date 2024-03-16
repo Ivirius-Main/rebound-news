@@ -5,14 +5,14 @@
 // URL of your website
 export const website = 'https://sveltekit-blog-template.vercel.app'
 
-export const firstName = 'ProjRebound Devs\''
+export const firstName = 'Proj. Rebound'
 export const lastName = 'Blog'
 export const name = `${firstName} ${lastName}`
 
 // Used for the landing page & footer of posts
 export const avatar = ''
 export const bio = `\
-Welcome to ${name}! This is the official news site of the Rebound Devs, a development team consisting of ErrorTek and Ivirius that created Project WinRebound (alternatively Project Windows Rebound, or simply Project Rebound)!`
+Welcome to the ${name}! This is the official news site of the Rebound Devs, a development team consisting of ErrorTek/jpbandroid and Ivirius that created Project WinRebound (alternatively Project Windows Rebound, or simply Project Rebound)!`
 
 // Your social usernames, empty strings won't be used.
 // For sake of the live demo, I'm using `username/repo` for github,
