@@ -36,6 +36,7 @@
 		  aria-label="Toggle Dark Mode"
 		  aria-checked={isDarkMode}
 		  class="w-5 h-5 sm:h-8 sm:w-8 sm:p-1"
+		  style="margin: auto;"
 		  on:click={() =>
 			{
 			isDarkMode = !isDarkMode
