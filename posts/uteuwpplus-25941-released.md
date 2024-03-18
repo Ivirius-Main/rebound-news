@@ -1,5 +1,6 @@
 ---
 title: UltraTextEdit UWP Plus  build 25941 has been released!
+date: 2024-03-18
 author: jpbandroid
 tag: WinUI (UWP/WASDK)
 tag2: undefined
