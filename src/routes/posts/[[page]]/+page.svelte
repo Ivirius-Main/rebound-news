@@ -65,11 +65,14 @@
 </div>
 
 <style>
-  a {
-    @apply flex items-center gap-2 font-medium text-zinc-700;
-  }
+	a {
+	@apply flex items-center gap-2 font-medium text-zinc-700;
+	border: 1px solid var(--fds-card-stroke-default);
+	border-radius: var(--fds-overlay-corner-radius);
+	background-color: var(--fds-card-background-secondary);
+	}
 
-  :global(.dark) a {
-    @apply text-zinc-300;
-  }
+	:global(.dark) a {
+	@apply text-zinc-300;
+	}
 </style>
