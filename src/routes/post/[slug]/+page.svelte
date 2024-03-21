@@ -69,7 +69,7 @@
         on:click={goBack}
         on:keydown={goBack}
       >
-		  <Fluent.Button id="back-button">
+		  <Fluent.Button class="back-button">
 			  <ArrowLeftIcon
           class="w-4 h-4 transition stroke-zinc-500 group-hover:stroke-zinc-700 dark:stroke-zinc-500 dark:group-hover:stroke-zinc-400"
         />
