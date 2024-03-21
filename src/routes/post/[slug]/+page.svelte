@@ -8,7 +8,7 @@
 
 	import * as Fluent from "fluent-svelte";
 	import "fluent-svelte/theme.css";
-	import { Button, Checkbox, TextBlock } from "fluent-svelte";
+	import { Button, Checkbox, TextBlock, IconButton } from "fluent-svelte";
 
 	/** @type {import('./$types').PageData} */
 	export let data
@@ -69,7 +69,7 @@
         on:click={goBack}
         on:keydown={goBack}
       >
-		  <IconButton
+		  <Fluent.IconButton
 				--icon-color="var(--text-color-secondary)"
 				aria-label="Back to Blog"
 				class="back-button"
@@ -78,7 +78,7 @@
 			  <ArrowLeftIcon
           class="w-4 h-4 transition stroke-zinc-500 group-hover:stroke-zinc-700 dark:stroke-zinc-500 dark:group-hover:stroke-zinc-400"
         />
-		  </IconButton>
+		  </Fluent.IconButton>
       </svelte:element>
     </div>
   </div>
