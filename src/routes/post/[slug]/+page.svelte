@@ -69,7 +69,7 @@
         on:click={goBack}
         on:keydown={goBack}
       >
-		  <Fluent.Button>
+		  <Fluent.Button id="back-button">
 			  <ArrowLeftIcon
           class="w-4 h-4 transition stroke-zinc-500 group-hover:stroke-zinc-700 dark:stroke-zinc-500 dark:group-hover:stroke-zinc-400"
         />
@@ -120,15 +120,37 @@
 </div>
 
 <style lang="postcss">
-  .root {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
+	.root {
+	display: grid;
+	grid-template-columns: 1fr;
+	}
 
-  @media screen(lg) {
-    .root {
-      /* 42rem matches max-w-2xl */
-      grid-template-columns: 1fr 42rem 1fr;
-    }
-  }
+	img {
+	max-inline-size: 100%;
+	block-size: auto;
+	border: 1px solid var(--fds-surface-stroke-default);
+	border-radius: var(--fds-overlay-corner-radius);
+	box-shadow:
+	0 2.74416px 2.74416px hsl(0, 0%, 0%, 3%),
+	0 5.48831px 5.48831px hsl(0, 0%, 0%, 4%),
+	0 13.7208px 10.9766px hsl(0, 0%, 0%, 5%),
+	0 20.5812px 20.5812px hsl(0, 0%, 0%, 6%),
+	0 41.1623px 41.1623px hsl(0, 0%, 0%, 7%),
+	0 96.0454px 89.1851px hsl(0, 0%, 0%, 9%);
+	transition: 200ms ease !important;
+	-webkit-user-drag: none;
+	aspect-ratio: 3 / 2;
+	object-fit: cover;
+	}
+
+	:global(.back-button) {
+	color: var(--fds-text-tertiary);
+	}
+
+	@media screen(lg) {
+	.root {
+	/* 42rem matches max-w-2xl */
+	grid-template-columns: 1fr 42rem 1fr;
+	}
+	}
 </style>
