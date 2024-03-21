@@ -14,6 +14,6 @@ A subtitle.
 A header.
 ## Svelte components in Markdown
 
-	<Fluent.Button>Button</Fluent.Button>
-	<Fluent.Button variant="accent">Button</Fluent.Button>
-	<Fluent.Button variant="hyperlink">Button</Fluent.Button>
+	<Button>Button</Button>
+	<Button variant="accent">Button</Button>
+	<Button variant="hyperlink">Button</Button>
