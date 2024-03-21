@@ -61,12 +61,18 @@
 <div class="root max-w-2xl mx-auto lg:max-w-none">
   <div class="hidden lg:block pt-8">
     <div class="sticky top-0 w-full flex justify-end pt-11 pr-8">
-		  <Fluent.Button href={canGoBack ? undefined : '/posts'}
+      <svelte:element
+        this={canGoBack ? 'button' : 'a'}
+        class="items-center justify-center hidden w-10 h-10 mb-8 transition bg-white rounded-full shadow-md -top-1 -left-16 lg:flex group shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0 dark:focus-visible:ring-2 dark:ring-white/10 dark:hover:border-zinc-700 dark:hover:ring-white/20"
+        href={canGoBack ? undefined : '/posts'}
         aria-label="Go back to posts"
-        on:click={"goBack"}
-        on:keydown={"goBack"}>
-			  <ArrowLeftIcon/>
-		  </Fluent.Button>
+        on:click={goBack}
+        on:keydown={goBack}
+      >
+        <ArrowLeftIcon
+          class="w-4 h-4 transition stroke-zinc-500 group-hover:stroke-zinc-700 dark:stroke-zinc-500 dark:group-hover:stroke-zinc-400"
+        />
+      </svelte:element>
     </div>
   </div>
 
@@ -112,33 +118,15 @@
 </div>
 
 <style lang="postcss">
-	.root {
-	display: grid;
-	grid-template-columns: 1fr;
-	}
+  .root {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 
-	img {
-	max-inline-size: 100%;
-	block-size: auto;
-	border: 1px solid var(--fds-surface-stroke-default);
-	border-radius: var(--fds-overlay-corner-radius);
-	box-shadow:
-	0 2.74416px 2.74416px hsl(0, 0%, 0%, 3%),
-	0 5.48831px 5.48831px hsl(0, 0%, 0%, 4%),
-	0 13.7208px 10.9766px hsl(0, 0%, 0%, 5%),
-	0 20.5812px 20.5812px hsl(0, 0%, 0%, 6%),
-	0 41.1623px 41.1623px hsl(0, 0%, 0%, 7%),
-	0 96.0454px 89.1851px hsl(0, 0%, 0%, 9%);
-	transition: 200ms ease !important;
-	-webkit-user-drag: none;
-	aspect-ratio: 3 / 2;
-	object-fit: cover;
-	}
-
-	@media screen(lg) {
-	.root {
-	/* 42rem matches max-w-2xl */
-	grid-template-columns: 1fr 42rem 1fr;
-	}
-	}
+  @media screen(lg) {
+    .root {
+      /* 42rem matches max-w-2xl */
+      grid-template-columns: 1fr 42rem 1fr;
+    }
+  }
 </style>
