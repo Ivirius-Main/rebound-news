@@ -3,7 +3,7 @@
 
 	import * as Fluent from "fluent-svelte";
 	import "fluent-svelte/theme.css";
-	import { InfoBadge } from "fluent-svelte";
+	import { InfoBadge, PersonPicture } from "fluent-svelte";
 
 	export let decorate
 	export let post
@@ -13,12 +13,6 @@
 	export { _class as class }
 </script>
 
-<style>
-	img {
-	height: 48px;
-	width: 48px;
-}
-</style>
 
 <div
   class={['relative z-10 order-first mb-3 flex text-zinc-500 dark:text-zinc-400', _class].join(' ')}
@@ -40,7 +34,7 @@
 	  {#if collapsed}
 	  <span class="mx-1">•</span>
 	  {/if}
-	  <img alt="{post.author} avatar" src="https://github.com/{post.author}.png" />
+	  <Fluent.PersonPicture alt="{post.author} avatar" src="https://github.com/{post.author}.png" style="width: 35px; height: 35px; align-items: center;"/>
 	  <a class="hyperlink" href="https://github.com/{post.author}">@{post.author}</a>
 	  {#if collapsed}
 	  <span class="mx-1">•</span>
