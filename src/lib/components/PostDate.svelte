@@ -33,8 +33,8 @@
 	  {#if collapsed}
 	  <span class="mx-1">•</span>
 	  {/if}
-	  <span>by {post.author}</span>
-
+	  <img alt="{post.author} avatar" src="https://github.com/{post.author}.png" />
+	  <a class="hyperlink" href="https://github.com/{post.author}">@{post.author}</a>
 	  {#if collapsed}
 	  <span class="mx-1">•</span>
 	  {/if}
