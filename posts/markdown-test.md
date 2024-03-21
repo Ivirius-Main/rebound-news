@@ -13,7 +13,9 @@ A subtitle.
 ### Header
 A header.
 ## Svelte components in Markdown
-
+<script>
+    import { Button } from "fluent-svelte";
+</script>
 	<Button>Button</Button>
 	<Button variant="accent">Button</Button>
 	<Button variant="hyperlink">Button</Button>
