@@ -13,6 +13,13 @@
 	export { _class as class }
 </script>
 
+<style>
+	img {
+	height: 48px;
+	width: 48px;
+}
+</style>
+
 <div
   class={['relative z-10 order-first mb-3 flex text-zinc-500 dark:text-zinc-400', _class].join(' ')}
   class:pl-3.5={decorate}
