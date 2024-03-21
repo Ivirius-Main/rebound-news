@@ -22,7 +22,7 @@
         <div class="w-full max-w-6xl mx-auto px-4 md:px-6 py-24">
 
             <!-- Feature Comparison Pricing Table component -->
-            <div class="max-w-sm mx-auto md:max-w-none grid md:grid-cols-4 md:-mx-6 text-sm" x-data="{ isAnnual: true }">
+            <div class="max-w-sm mx-auto md:max-w-none grid md:grid-cols-4 md:-mx-6 text-sm">
 
                 <!-- Column with labels -->
                 <section class="md:contents [&>div:first-child]:pt-10 [&>div:first-child]:rounded-t-2xl [&>div:last-child]:pb-10 [&>div:last-child]:rounded-b-2xl">
