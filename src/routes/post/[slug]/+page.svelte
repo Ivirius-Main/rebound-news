@@ -69,11 +69,16 @@
         on:click={goBack}
         on:keydown={goBack}
       >
-		  <Fluent.Button class="back-button">
+		  <IconButton
+				--icon-color="var(--text-color-secondary)"
+				aria-label="Back to Blog"
+				class="back-button"
+				title="Back to Blog"
+			>
 			  <ArrowLeftIcon
           class="w-4 h-4 transition stroke-zinc-500 group-hover:stroke-zinc-700 dark:stroke-zinc-500 dark:group-hover:stroke-zinc-400"
         />
-		  </Fluent.Button>
+		  </IconButton>
       </svelte:element>
     </div>
   </div>
