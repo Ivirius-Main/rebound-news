@@ -34,7 +34,7 @@
 	  {#if collapsed}
 	  <span class="mx-1">•</span>
 	  {/if}
-	  <Fluent.PersonPicture alt="{post.author} avatar" src="https://github.com/{post.author}.png" style="width: 35px; height: 35px; align-items: center;"/>
+	  <Fluent.PersonPicture alt="{post.author} avatar" src="https://github.com/{post.author}.png" style="width: 35px; height: 35px;"/>
 	  <a class="hyperlink" href="https://github.com/{post.author}">@{post.author}</a>
 	  {#if collapsed}
 	  <span class="mx-1">•</span>
