@@ -69,6 +69,7 @@
 	.post-info {
 	@include flex($direction: column);
 	color: var(--fds-text-tertiary);
+	}
 
 	font: {
 	size: 1.2rem;
