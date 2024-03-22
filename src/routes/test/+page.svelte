@@ -34,6 +34,8 @@
                                 <div class="inline-flex items-center whitespace-nowrap">
                                     <div class="text-sm text-slate-500 mr-2 md:max-lg:sr-only">Monthly</div>
                                     <div class="relative">
+                                    </div>
+                                    <div class="text-sm text-slate-500 ml-2"></div>
                                 </div>
                             </div>
                         </div>
