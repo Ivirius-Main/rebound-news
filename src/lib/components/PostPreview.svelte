@@ -59,11 +59,6 @@
 	-webkit-user-drag: none;
 	}
 
-	footer {
-	@include flex($align: center, $gap: 8px);
-	flex: 0 0 auto;
-	padding: 12px 24px 24px;
-
 	img {
 	inline-size: 36px;
 	block-size: 36px;
