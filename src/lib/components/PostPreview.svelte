@@ -29,7 +29,6 @@
 	}
 
 	.blog-card {
-	@include flex($direction: column);
 	block-size: auto;
 	min-block-size: 380px;
 	border: 1px solid var(--fds-card-stroke-default);
