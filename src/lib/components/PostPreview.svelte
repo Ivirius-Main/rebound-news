@@ -28,7 +28,7 @@
 	margin-bottom: 0;
 	}
 
-	.blog-card {
+	.blogCard {
 	block-size: auto;
 	min-block-size: 380px;
 	border: 1px solid var(--fds-card-stroke-default);
