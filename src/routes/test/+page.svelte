@@ -107,7 +107,7 @@
                 <section class="md:contents [&>div:first-child]:pt-10 [&>div:first-child]:rounded-t-2xl [&>div:last-child]:pb-10 [&>div:last-child]:rounded-b-2xl">
                     <div class="relative bg-white dark:bg-slate-900 px-4 lg:px-6 flex flex-col justify-end">
                         <div class="grow mb-5">
-                            <div class="text-3xl font-bold text-slate-900 dark:text-slate-200">UltraTextEdit UWP</div>
+                            <div class="text-3xl font-bold text-slate-900 dark:text-slate-200">UTE UWP</div>
                             <div class="text-sm text-slate-500">The stable, beautiful UWP text editor.</div>
                         </div>
                         <div class="pb-4 border-b border-slate-200 dark:border-slate-700">
@@ -166,7 +166,7 @@
                             <svg class="shrink-0 fill-emerald-500 mr-3" xmlns="http://www.w3.org/2000/svg" width="12" height="9">
                                 <path d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z" />
                             </svg>
-                            <span><span class="md:sr-only">Generate Public URLs</span></span>
+                            <span><span class="md:sr-only">Fluent Design UI</span></span>
                         </div>
                     </div>
                     <!-- API Integrations -->
@@ -175,7 +175,7 @@
                             <svg class="shrink-0 fill-emerald-500 mr-3" xmlns="http://www.w3.org/2000/svg" width="12" height="9">
                                 <path d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z" />
                             </svg>
-                            <span><span class="md:sr-only">API Integrations</span></span>
+                            <span><span class="md:sr-only">Basic text editing features</span></span>
                         </div>
                     </div>
                     <!-- Extra Add-ons -->
@@ -184,25 +184,32 @@
                             <svg class="shrink-0 fill-emerald-500 mr-3" xmlns="http://www.w3.org/2000/svg" width="12" height="9">
                                 <path d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z" />
                             </svg>
-                            <span><span class="md:sr-only">Extra Add-ons</span></span>
+                            <span><span class="md:sr-only">Extra text editing features</span></span>
                         </div>
                     </div>
                     <!-- Admin Roles -->
                     <div class="bg-white dark:bg-slate-900 px-4 lg:px-6 flex flex-col justify-end md:order-10">
                         <div class="flex items-center border-b border-slate-200 dark:border-slate-700 py-2 text-slate-600 max-md:sr-only">
-                            <span><span class="md:sr-only">Admin Roles</span></span>
+                            <span>
+								<span class="md:sr-only">In-app updates</span>
+							</span>
                         </div>
                     </div>
                     <!-- Admin Roles -->
                     <div class="bg-white dark:bg-slate-900 px-4 lg:px-6 flex flex-col justify-end md:order-11">
-                        <div class="flex items-center border-b border-slate-200 dark:border-slate-700 py-2 text-slate-600 max-md:sr-only">
-                            <span><span class="md:sr-only">Admin Roles</span></span>
-                        </div>
+						<div class="flex items-center h-full border-b border-slate-200 dark:border-slate-700 py-2 text-slate-600 dark:text-slate-400">
+							<svg class="shrink-0 fill-emerald-500 mr-3" xmlns="http://www.w3.org/2000/svg" width="12" height="9">
+								<path d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z" />
+							</svg>
+							<span>
+								<span class="md:sr-only">Windows version support </span> Windows 10
+							</span>
+						</div>
                     </div>
                     <!-- Enterprise Add-ons -->
                     <div class="bg-white dark:bg-slate-900 px-4 lg:px-6 flex flex-col justify-end md:order-12">
                         <div class="flex items-center border-b border-slate-200 dark:border-slate-700 py-2 text-slate-600 max-md:sr-only">
-                            <span><span class="md:sr-only">Enterprise Add-ons</span></span>
+                            <span><span class="md:sr-only">.NET version </span>.NET Standard</span>
                         </div>
                     </div>
                     <!-- # Support -->
@@ -212,7 +219,7 @@
                     <!-- Custom Connection -->
                     <div class="bg-white dark:bg-slate-900 px-4 lg:px-6 flex flex-col justify-end md:order-[14]">
                         <div class="flex items-center border-b border-slate-200 dark:border-slate-700 py-2 text-slate-600 max-md:sr-only">
-                            <span><span class="md:sr-only">Custom Connection</span></span>
+                            <span><span class="md:sr-only">UI Framework </span>UWP</span>
                         </div>
                     </div>
                 </section>
