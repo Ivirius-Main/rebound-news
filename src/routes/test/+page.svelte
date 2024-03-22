@@ -46,23 +46,23 @@
                     </div>
                     <!-- # Platform -->
                     <div class="bg-white dark:bg-slate-900 px-6 flex flex-col justify-end max-md:hidden md:order-1" aria-hidden="true">
-                        <div class="py-2 text-slate-900 font-medium mt-4">Platform</div>
+                        <div class="py-2 text-slate-900 font-medium mt-4">Support</div>
                     </div>
                     <!-- Account Access -->
                     <div class="bg-white dark:bg-slate-900 px-6 flex flex-col justify-end max-md:hidden md:order-2" aria-hidden="true">
-                        <div class="py-2 text-slate-600 dark:text-slate-400 border-b border-slate-200 dark:border-slate-700">Account Access</div>
+                        <div class="py-2 text-slate-600 dark:text-slate-400 border-b border-slate-200 dark:border-slate-700">Free and Open Source (FOSS)</div>
                     </div>
                     <!-- Custom Domains -->
                     <div class="bg-white dark:bg-slate-900 px-6 flex flex-col justify-end max-md:hidden md:order-3" aria-hidden="true">
-                        <div class="py-2 text-slate-600 dark:text-slate-400 border-b border-slate-200 dark:border-slate-700">Custom Domains</div>
+                        <div class="py-2 text-slate-600 dark:text-slate-400 border-b border-slate-200 dark:border-slate-700">'Patch Tuesday' or other update cycle for stable</div>
                     </div>
                     <!-- Receipts Forward -->
                     <div class="bg-white dark:bg-slate-900 px-6 flex flex-col justify-end max-md:hidden md:order-4" aria-hidden="true">
-                        <div class="py-2 text-slate-600 dark:text-slate-400 border-b border-slate-200 dark:border-slate-700">Receipts Forward</div>
+                        <div class="py-2 text-slate-600 dark:text-slate-400 border-b border-slate-200 dark:border-slate-700">Dev Channel flights</div>
                     </div>
                     <!-- Supplier Management -->
                     <div class="bg-white dark:bg-slate-900 px-6 flex flex-col justify-end max-md:hidden md:order-5" aria-hidden="true">
-                        <div class="py-2 text-slate-600 dark:text-slate-400 border-b border-slate-200 dark:border-slate-700">Supplier Management</div>
+                        <div class="py-2 text-slate-600 dark:text-slate-400 border-b border-slate-200 dark:border-slate-700">Bundled as part of an office suite</div>
                     </div>
                     <!-- # Features -->
                     <div class="bg-white dark:bg-slate-900 px-6 flex flex-col justify-end max-md:hidden md:order-6" aria-hidden="true">
@@ -70,27 +70,27 @@
                     </div>
                     <!-- Generate Public URLs -->
                     <div class="bg-white dark:bg-slate-900 px-6 flex flex-col justify-end max-md:hidden md:order-7" aria-hidden="true">
-                        <div class="py-2 text-slate-600 dark:text-slate-400 border-b border-slate-200 dark:border-slate-700">Generate Public URLs</div>
+                        <div class="py-2 text-slate-600 dark:text-slate-400 border-b border-slate-200 dark:border-slate-700">Fluent Design UI</div>
                     </div>
                     <!-- API Integrations -->
                     <div class="bg-white dark:bg-slate-900 px-6 flex flex-col justify-end max-md:hidden md:order-8" aria-hidden="true">
-                        <div class="py-2 text-slate-600 dark:text-slate-400 border-b border-slate-200 dark:border-slate-700">API Integrations</div>
+                        <div class="py-2 text-slate-600 dark:text-slate-400 border-b border-slate-200 dark:border-slate-700">Basic text editing features</div>
                     </div>
                     <!-- Extra Add-ons -->
                     <div class="bg-white dark:bg-slate-900 px-6 flex flex-col justify-end max-md:hidden md:order-9" aria-hidden="true">
-                        <div class="py-2 text-slate-600 dark:text-slate-400 border-b border-slate-200 dark:border-slate-700">Extra Add-ons</div>
+                        <div class="py-2 text-slate-600 dark:text-slate-400 border-b border-slate-200 dark:border-slate-700">Extra text editing features</div>
                     </div>
                     <!-- Admin Roles -->
                     <div class="bg-white dark:bg-slate-900 px-6 flex flex-col justify-end max-md:hidden md:order-10" aria-hidden="true">
-                        <div class="py-2 text-slate-600 dark:text-slate-400 border-b border-slate-200 dark:border-slate-700">Admin Roles</div>
+                        <div class="py-2 text-slate-600 dark:text-slate-400 border-b border-slate-200 dark:border-slate-700">In-app app updates</div>
                     </div>
                     <!-- Admin Roles -->
                     <div class="bg-white dark:bg-slate-900 px-6 flex flex-col justify-end max-md:hidden md:order-11" aria-hidden="true">
-                        <div class="py-2 text-slate-600 dark:text-slate-400 border-b border-slate-200 dark:border-slate-700">Admin Roles</div>
+                        <div class="py-2 text-slate-600 dark:text-slate-400 border-b border-slate-200 dark:border-slate-700">Windows version support</div>
                     </div>
                     <!-- Enterprise Add-ons -->
                     <div class="bg-white dark:bg-slate-900 px-6 flex flex-col justify-end max-md:hidden md:order-12" aria-hidden="true">
-                        <div class="py-2 text-slate-600 dark:text-slate-400 border-b border-slate-200 dark:border-slate-700">Enterprise Add-ons</div>
+                        <div class="py-2 text-slate-600 dark:text-slate-400 border-b border-slate-200 dark:border-slate-700">.NET version</div>
                     </div>
                     <!-- # Support -->
                     <div class="bg-white dark:bg-slate-900 px-6 flex flex-col justify-end max-md:hidden md:order-[13]" aria-hidden="true">
@@ -98,7 +98,7 @@
                     </div>
                     <!-- Custom Connection -->
                     <div class="bg-white dark:bg-slate-900 px-6 flex flex-col justify-end max-md:hidden md:order-[14]" aria-hidden="true">
-                        <div class="py-2 text-slate-600 dark:text-slate-400 border-b border-slate-200 dark:border-slate-700">Custom Connection</div>
+                        <div class="py-2 text-slate-600 dark:text-slate-400 border-b border-slate-200 dark:border-slate-700">UI Framework</div>
                     </div>
                 </section>
                 <!-- End: Column with labels -->
@@ -107,11 +107,8 @@
                 <section class="md:contents [&>div:first-child]:pt-10 [&>div:first-child]:rounded-t-2xl [&>div:last-child]:pb-10 [&>div:last-child]:rounded-b-2xl">
                     <div class="relative bg-white dark:bg-slate-900 px-4 lg:px-6 flex flex-col justify-end">
                         <div class="grow mb-5">
-                            <div class="font-semibold text-slate-900 dark:text-slate-200 mb-0.5">Essential</div>
-                            <div class="mb-1">
-                                <span class="text-xl font-medium text-slate-900 dark:text-slate-200">$</span><span class="text-3xl font-bold text-slate-900 dark:text-slate-200" x-text="isAnnual ? '29' : '35'">29</span><span class="text-slate-500 font-medium">/mo</span>
-                            </div>
-                            <div class="text-sm text-slate-500">Unlimited placeholder texts.</div>
+                            <div class="text-3xl font-bold text-slate-900 dark:text-slate-200">UltraTextEdit UWP</div>
+                            <div class="text-sm text-slate-500">The stable, beautiful UWP text editor.</div>
                         </div>
                         <div class="pb-4 border-b border-slate-200 dark:border-slate-700">
                             <a class="w-full inline-flex justify-center whitespace-nowrap rounded-lg bg-indigo-500 px-2.5 py-1.5 text-sm font-medium text-white shadow-sm shadow-indigo-950/10 hover:bg-indigo-600 focus-visible:outline-none focus-visible:ring focus-visible:ring-indigo-300 dark:focus-visible:ring-slate-600 transition-colors duration-150 group">
@@ -129,7 +126,7 @@
                             <svg class="shrink-0 fill-emerald-500 mr-3" xmlns="http://www.w3.org/2000/svg" width="12" height="9">
                                 <path d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z" />
                             </svg>
-                            <span>400 <span class="md:sr-only">Account Access</span></span>
+                            <span>Yes, under MIT License <span class="md:sr-only">Free and Open Source (FOSS)</span></span>
                         </div>
                     </div>
                     <!-- Custom Domains -->
@@ -138,7 +135,8 @@
                             <svg class="shrink-0 fill-emerald-500 mr-3" xmlns="http://www.w3.org/2000/svg" width="12" height="9">
                                 <path d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z" />
                             </svg>
-                            <span>4 <span class="md:sr-only">Custom Domains</span></span>
+                            <span>
+								1 update monthly on Patch Tuesday<span class="md:sr-only">'Patch Tuesday' or other update cycle for stable</span></span>
                         </div>
                     </div>
                     <!-- Receipts Forward -->
@@ -147,17 +145,16 @@
                             <svg class="shrink-0 fill-emerald-500 mr-3" xmlns="http://www.w3.org/2000/svg" width="12" height="9">
                                 <path d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z" />
                             </svg>
-                            <span>Unlimited <span class="md:sr-only">Receipts Forward</span></span>
+                            <span>Yes, until 24 June 2024 <span class="md:sr-only">Dev Channel flights</span></span>
                         </div>
                     </div>
                     <!-- Supplier Management -->
                     <div class="bg-white dark:bg-slate-900 px-4 lg:px-6 flex flex-col justify-end md:order-5">
-                        <div class="flex items-center h-full border-b border-slate-200 dark:border-slate-700 py-2 text-slate-600 dark:text-slate-400">
-                            <svg class="shrink-0 fill-emerald-500 mr-3" xmlns="http://www.w3.org/2000/svg" width="12" height="9">
-                                <path d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z" />
-                            </svg>
-                            <span>1 <span class="md:sr-only">Supplier Management</span></span>
-                        </div>
+						<div class="flex items-center border-b border-slate-200 dark:border-slate-700 py-2 text-slate-600 max-md:sr-only">
+							<span>
+								<span class="md:sr-only">Bundled as part of an office suite</span>
+							</span>
+						</div>
                     </div>
                     <!-- # Features -->
                     <div class="bg-white dark:bg-slate-900 px-4 lg:px-6 flex flex-col justify-end md:order-6">
