@@ -40,6 +40,7 @@
 	transition: var(--fds-control-normal-duration) ease;
 	overflow: hidden;
 	cursor: pointer;
+	}
 
 	.blogCard:hover {
 	box-shadow: var(--fds-flyout-shadow);
