@@ -27,7 +27,17 @@
                 <!-- Column with labels -->
                 <section class="md:contents [&>div:first-child]:pt-10 [&>div:first-child]:rounded-t-2xl [&>div:last-child]:pb-10 [&>div:last-child]:rounded-b-2xl">
                     <!-- Pricing toggle -->
-                    
+                    <div class="relative bg-white dark:bg-slate-900 px-6 flex flex-col justify-end">
+                        <div class="pb-5 md:border-b border-slate-200 dark:border-slate-700">
+                            <!-- Toggle switch -->
+                            <div class="max-md:text-center">
+                                <div class="inline-flex items-center whitespace-nowrap">
+                                    <div class="text-sm text-slate-500 mr-2 md:max-lg:sr-only">Monthly</div>
+                                    <div class="relative">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <!-- # Platform -->
                     <div class="bg-white dark:bg-slate-900 px-6 flex flex-col justify-end max-md:hidden md:order-1" aria-hidden="true">
                         <div class="py-2 text-slate-900 font-medium mt-4">Platform</div>
