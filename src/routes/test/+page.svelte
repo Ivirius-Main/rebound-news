@@ -34,8 +34,12 @@
                                 <div class="inline-flex items-center whitespace-nowrap">
                                     <div class="text-sm text-slate-500 mr-2 md:max-lg:sr-only">Monthly</div>
                                     <div class="relative">
+                                        <input type="checkbox" id="toggle" class="peer sr-only" x-model="isAnnual" />
+                                        <label for="toggle" class="relative flex h-6 w-11 cursor-pointer items-center rounded-full bg-slate-400 px-0.5 outline-slate-400 transition-colors before:h-5 before:w-5 before:rounded-full before:bg-white before:shadow-sm before:transition-transform before:duration-150 peer-checked:bg-indigo-500 peer-checked:before:translate-x-full peer-focus-visible:outline peer-focus-visible:outline-offset-2 peer-focus-visible:outline-gray-400 peer-checked:peer-focus-visible:outline-indigo-500">
+                                            <span class="sr-only">Pay Yearly</span>
+                                        </label>
                                     </div>
-                                    <div class="text-sm text-slate-500 ml-2"></div>
+                                    <div class="text-sm text-slate-500 ml-2">Yearly <span class="text-emerald-500">(-20%)</span></div>
                                 </div>
                             </div>
                         </div>
